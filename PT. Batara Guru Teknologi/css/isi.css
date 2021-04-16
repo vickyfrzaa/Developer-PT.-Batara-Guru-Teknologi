@@ -1,0 +1,67 @@
+.btn-success {
+  border: 10 solid #0ea315ba;
+  border-radius: 0.4375rem;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: right;
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    color: #ffff;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    border: 0 solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .image {
+    width: 10rem;
+    padding-top: 0%;
+    padding-left: 3rem;
+  }
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.navbar-brand:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid;
+  margin-bottom: -8px;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+#panel {
+  border: 10 solid #198754ba;
+  border-radius: 1rem;
+  border-radius: 0.4375rem;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.fas {
+  color: #d63384;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .navbar-brand:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid;
+    margin-bottom: -8px;
+  }
+}
